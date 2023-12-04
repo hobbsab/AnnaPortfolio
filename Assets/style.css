@@ -1,0 +1,39 @@
+* {
+    box-sizing: border-box;
+    padding: 10px;
+    margin: 0;
+    
+}
+header {
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-left: 40px;
+    padding-right: 40px;
+    font-family: 'Nova Square';
+    background-color: rgb(68, 20, 35);
+    color: #ffffff;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+body {
+    background-color: rgb(255, 255, 255);
+}
+
+header nav ul li{
+    margin-bottom: 30px;
+    display: inline-block
+}
+
+li {
+    display: inline;
+}
+
+.btn {
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    padding: 5px;
+    background-color: #92234f;
+    border-radius: 7px
+}
