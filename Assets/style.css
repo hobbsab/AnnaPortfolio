@@ -18,7 +18,7 @@ header {
 }
 
 body {
-    background-color: rgb(255, 255, 255);
+    background: #ffffff;
 }
 
 header nav ul li{
@@ -31,7 +31,7 @@ li {
 }
 
 .btn {
-    color: rgb(255, 255, 255);
+    color: #ffffff;
     text-decoration: none;
     padding: 5px;
     background-color: #92234f;
@@ -98,17 +98,18 @@ aside {
     display: flex;
     justify-content: baseline;
     flex-direction: column;
-    height: 400px;
+    height: 1000px;
+    padding-bottom: 50px;
 }
 
 .pictures {
-    background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTvvUQCMivsTC7wl2-DT9SWvOMEzNuFZpmvhw&usqp=CAU");
+    background-image: url("https://cats.com/wp-content/uploads/2020/10/adult-male-couple-of-Thai-cat-768x384.jpg");
     background-size: cover;
     text-decoration: none;
-    height: 400px;
-    width: 400px;
+    height: 900px;
+    width: 600px;
     font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-    padding: 20px;
+    padding: 70px;
     margin: 20px;
     display: flex;
     flex-wrap: wrap;
@@ -118,16 +119,22 @@ aside {
 }
 
 #project1 {
-    height: 600px;
+    background-image: url("https://t4.ftcdn.net/jpg/04/03/62/35/360_F_403623508_OhrbkZ1zc2NzB9mN1d2ZcO1WrBDGKsxY.jpg");
+    height: 700px;
     width: 600px;
 }
 
 .imagetext {
     font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     position: relative;
-    background-color: rgb(255, 255, 255);
-    border-radius: 5px;
-    color: #c11a70;
+    background-color: #ffffff;
+    border-radius: 3px;
+    color: #db0071;
+}
+
+.imagetext:hover {
+    background-color: #e2e2e2;
+    color: #4d0014;
 }
 
 .ptext {
